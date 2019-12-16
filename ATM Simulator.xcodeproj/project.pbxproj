@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9A4E461E23A170570069E445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E461D23A170570069E445 /* AppDelegate.swift */; };
 		9A4E462023A170570069E445 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E461F23A170570069E445 /* SceneDelegate.swift */; };
-		9A4E462223A170570069E445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E462123A170570069E445 /* ViewController.swift */; };
+		9A4E462223A170570069E445 /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E462123A170570069E445 /* AuthorizationVC.swift */; };
 		9A4E462523A170570069E445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E462323A170570069E445 /* Main.storyboard */; };
 		9A4E462723A1705B0069E445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E462623A1705B0069E445 /* Assets.xcassets */; };
 		9A4E462A23A1705B0069E445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E462823A1705B0069E445 /* LaunchScreen.storyboard */; };
+		9A4E463323A171EC0069E445 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9A4E463223A171EC0069E445 /* Alamofire */; };
+		9A7F71CD23A5A05F00EB3FA0 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F71CC23A5A05F00EB3FA0 /* Controller.swift */; };
+		9A7F71CF23A5A08100EB3FA0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F71CE23A5A08100EB3FA0 /* Card.swift */; };
+		9A7F71D123A5A0E800EB3FA0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F71D023A5A0E800EB3FA0 /* Account.swift */; };
+		9A7F71D423A5A92B00EB3FA0 /* ConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F71D323A5A92B00EB3FA0 /* ConfirmationVC.swift */; };
+		9A7F71D623A5B88D00EB3FA0 /* OperationsMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F71D523A5B88D00EB3FA0 /* OperationsMenuVC.swift */; };
+		9AAE48B023A6EA970072E076 /* CashWithdrawalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48AF23A6EA970072E076 /* CashWithdrawalVC.swift */; };
+		9AAE48B223A6EACA0072E076 /* MoneyTransferVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48B123A6EACA0072E076 /* MoneyTransferVC.swift */; };
+		9AAE48B423A6EAEE0072E076 /* PaymentForServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48B323A6EAEE0072E076 /* PaymentForServicesVC.swift */; };
+		9AAE48B623A6EB170072E076 /* InternetConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48B523A6EB170072E076 /* InternetConnectionVC.swift */; };
+		9AAE48B823A6EB9C0072E076 /* MobileConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48B723A6EB9C0072E076 /* MobileConnectionVC.swift */; };
+		9AAE48BA23A6EBC80072E076 /* AccountBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48B923A6EBC80072E076 /* AccountBalanceVC.swift */; };
+		9AAE48BE23A703C00072E076 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE48BD23A703C00072E076 /* UIViewControllerExtension.swift */; };
+		9AAE48C723A7A0FC0072E076 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9AAE48C623A7A0FC0072E076 /* SwiftyJSON */; };
+		9ADA973D23A6976C00E6F671 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADA973C23A6976C00E6F671 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A4E461A23A170570069E445 /* ATM Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4E461D23A170570069E445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4E461F23A170570069E445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A4E462123A170570069E445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A4E462123A170570069E445 /* AuthorizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
 		9A4E462423A170570069E445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A4E462623A1705B0069E445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4E462923A1705B0069E445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4E462B23A1705B0069E445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7F71CC23A5A05F00EB3FA0 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		9A7F71CE23A5A08100EB3FA0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9A7F71D023A5A0E800EB3FA0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9A7F71D323A5A92B00EB3FA0 /* ConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationVC.swift; sourceTree = "<group>"; };
+		9A7F71D523A5B88D00EB3FA0 /* OperationsMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsMenuVC.swift; sourceTree = "<group>"; };
+		9AAE48AF23A6EA970072E076 /* CashWithdrawalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWithdrawalVC.swift; sourceTree = "<group>"; };
+		9AAE48B123A6EACA0072E076 /* MoneyTransferVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransferVC.swift; sourceTree = "<group>"; };
+		9AAE48B323A6EAEE0072E076 /* PaymentForServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentForServicesVC.swift; sourceTree = "<group>"; };
+		9AAE48B523A6EB170072E076 /* InternetConnectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionVC.swift; sourceTree = "<group>"; };
+		9AAE48B723A6EB9C0072E076 /* MobileConnectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileConnectionVC.swift; sourceTree = "<group>"; };
+		9AAE48B923A6EBC80072E076 /* AccountBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceVC.swift; sourceTree = "<group>"; };
+		9AAE48BD23A703C00072E076 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9ADA973C23A6976C00E6F671 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAE48C723A7A0FC0072E076 /* SwiftyJSON in Frameworks */,
+				9A4E463323A171EC0069E445 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,60 @@
 		9A4E461C23A170570069E445 /* ATM Simulator */ = {
 			isa = PBXGroup;
 			children = (
-				9A4E461D23A170570069E445 /* AppDelegate.swift */,
-				9A4E461F23A170570069E445 /* SceneDelegate.swift */,
-				9A4E462123A170570069E445 /* ViewController.swift */,
+				9AAE48C423A7884E0072E076 /* Model */,
+				9AAE48C323A788150072E076 /* Supporting Files */,
+				9ADA973923A65FB900E6F671 /* Extensions */,
+				9A7F71D223A5A79900EB3FA0 /* ViewControllers */,
 				9A4E462323A170570069E445 /* Main.storyboard */,
-				9A4E462623A1705B0069E445 /* Assets.xcassets */,
-				9A4E462823A1705B0069E445 /* LaunchScreen.storyboard */,
 				9A4E462B23A1705B0069E445 /* Info.plist */,
+				9A7F71CC23A5A05F00EB3FA0 /* Controller.swift */,
 			);
 			path = "ATM Simulator";
+			sourceTree = "<group>";
+		};
+		9A7F71D223A5A79900EB3FA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E462123A170570069E445 /* AuthorizationVC.swift */,
+				9A7F71D323A5A92B00EB3FA0 /* ConfirmationVC.swift */,
+				9A7F71D523A5B88D00EB3FA0 /* OperationsMenuVC.swift */,
+				9AAE48AF23A6EA970072E076 /* CashWithdrawalVC.swift */,
+				9AAE48B123A6EACA0072E076 /* MoneyTransferVC.swift */,
+				9AAE48B323A6EAEE0072E076 /* PaymentForServicesVC.swift */,
+				9AAE48B523A6EB170072E076 /* InternetConnectionVC.swift */,
+				9AAE48B723A6EB9C0072E076 /* MobileConnectionVC.swift */,
+				9AAE48B923A6EBC80072E076 /* AccountBalanceVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9AAE48C323A788150072E076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E461D23A170570069E445 /* AppDelegate.swift */,
+				9A4E461F23A170570069E445 /* SceneDelegate.swift */,
+				9A4E462623A1705B0069E445 /* Assets.xcassets */,
+				9A4E462823A1705B0069E445 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AAE48C423A7884E0072E076 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A7F71CE23A5A08100EB3FA0 /* Card.swift */,
+				9A7F71D023A5A0E800EB3FA0 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9ADA973923A65FB900E6F671 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9ADA973C23A6976C00E6F671 /* UIButtonExtension.swift */,
+				9AAE48BD23A703C00072E076 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +158,10 @@
 			dependencies = (
 			);
 			name = "ATM Simulator";
+			packageProductDependencies = (
+				9A4E463223A171EC0069E445 /* Alamofire */,
+				9AAE48C623A7A0FC0072E076 /* SwiftyJSON */,
+			);
 			productName = "ATM Simulator";
 			productReference = 9A4E461A23A170570069E445 /* ATM Simulator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,10 @@
 				Base,
 			);
 			mainGroup = 9A4E461123A170570069E445;
+			packageReferences = (
+				9A4E463123A171EC0069E445 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9AAE48C523A7A0FC0072E076 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 9A4E461B23A170570069E445 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +221,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4E462223A170570069E445 /* ViewController.swift in Sources */,
+				9A7F71CD23A5A05F00EB3FA0 /* Controller.swift in Sources */,
+				9A7F71CF23A5A08100EB3FA0 /* Card.swift in Sources */,
+				9AAE48B023A6EA970072E076 /* CashWithdrawalVC.swift in Sources */,
+				9AAE48BA23A6EBC80072E076 /* AccountBalanceVC.swift in Sources */,
+				9AAE48BE23A703C00072E076 /* UIViewControllerExtension.swift in Sources */,
+				9AAE48B623A6EB170072E076 /* InternetConnectionVC.swift in Sources */,
+				9A4E462223A170570069E445 /* AuthorizationVC.swift in Sources */,
 				9A4E461E23A170570069E445 /* AppDelegate.swift in Sources */,
+				9AAE48B223A6EACA0072E076 /* MoneyTransferVC.swift in Sources */,
 				9A4E462023A170570069E445 /* SceneDelegate.swift in Sources */,
+				9AAE48B823A6EB9C0072E076 /* MobileConnectionVC.swift in Sources */,
+				9ADA973D23A6976C00E6F671 /* UIButtonExtension.swift in Sources */,
+				9A7F71D623A5B88D00EB3FA0 /* OperationsMenuVC.swift in Sources */,
+				9A7F71D423A5A92B00EB3FA0 /* ConfirmationVC.swift in Sources */,
+				9A7F71D123A5A0E800EB3FA0 /* Account.swift in Sources */,
+				9AAE48B423A6EAEE0072E076 /* PaymentForServicesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +381,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ442ZP995;
 				INFOPLIST_FILE = "ATM Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.ATM-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +400,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ442ZP995;
 				INFOPLIST_FILE = "ATM Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.ATM-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -336,6 +436,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A4E463123A171EC0069E445 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		9AAE48C523A7A0FC0072E076 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A4E463223A171EC0069E445 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A4E463123A171EC0069E445 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9AAE48C623A7A0FC0072E076 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AAE48C523A7A0FC0072E076 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A4E461223A170570069E445 /* Project object */;
 }
